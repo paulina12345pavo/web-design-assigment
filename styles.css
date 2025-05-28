@@ -1,0 +1,207 @@
+body{
+     background-color: #d6cfbf;
+    height: 100%;
+    margin: 0; 
+}
+
+h1 {
+    padding:0;
+    margin:0;
+}
+nav { 
+    background-color:rgba(255, 255, 255, 0.85);
+    position:fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding-top: 45; 
+    text-align: center;
+}
+
+#wrapper {
+    min-width: 100%; 
+    position: relative;
+    top: 0; 
+    left:0;
+    right: 0;
+}
+
+nav ul{
+    padding-left: 200; 
+    list-style: none;  
+
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+}
+/* homepage*/
+
+.nonborders{
+    margin:0; 
+    padding:0; 
+    overflow: hidden;
+    
+}
+.nonborders img {
+    object-fit: cover;
+    display:block;
+    
+}
+
+/*.full-img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display:block;
+    
+tried to make the picture be in the same place when the screen is smaller, but didnt work
+}
+*/ 
+#sec1 {
+    background-color: #f6f6f6;
+    flex-direction: row;
+    align-items: center; /* vertical alignment*/
+    justify-content: center; /* horisontal alignment*/
+    display: flex; 
+    
+    
+}
+
+.column {
+    flex: 1;
+}
+
+#sec2 {
+
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: center;
+    margin: 20% 0%; /* the first numer apply to top and bottom, secound applices to right and left */
+}
+
+#cl{
+    flex:1;
+    padding: 0% 20px;
+}
+
+#cr{
+    flex:2;
+}
+
+
+
+.txt-center{
+    text-align: center;
+}
+.btn{
+    background-color:#4cafc8;
+    color: white;
+    display: inline-block;
+    margin-top: 6%; /* the button will always be seperated from the top 6% of the size of the section*/
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 30px;
+   /* transition: #429cb3 0.3s ease; tried to make an animation on the button, didnt work*/
+    
+    
+}
+.column { 
+   flex: 1; 
+}
+
+/*about me*/
+
+#sec1-a {  /* i had originally a class attribute, that is why it didnt work, when changed to id it worked  */
+  background-color: #d6cfbf;
+  display: flex; 
+  flex-direction: row;
+    padding-top: 100px;
+    color:white;
+    
+}
+.column-a {
+    flex: 1; 
+}
+
+#sec2-a {
+  background-color: #d6cfbf;
+
+}
+
+
+
+/*free-training*/
+
+.top-space{
+    padding-top: 25%;
+    background-color:#f6f6f6;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row{
+    flex-direction: row;
+    align-items: center; /* vertical alignment*/
+    justify-content: center; /* horisontal alignment*/
+    display: flex; 
+    padding: 30px 0px;
+}
+
+.gray{
+    background-color:#f6f6f6;
+}
+
+/* course*/
+
+#firstcourse {
+     background-color: #f6f6f6;
+    padding-top:80px;
+}
+#h1-c {
+    color:#5c2828;
+}
+
+/* education videos*/
+#sec1-ed {
+    background-color: #f6f6f6;
+    flex-direction: row;
+    align-items: center; /* vertical alignment*/
+    justify-content: center; /* horisontal alignment*/
+    display: flex; 
+    margin: 20px 0%; /* the first numer apply to top and bottom, secound applices to right and left */
+    padding-top: 80px;
+}
+
+#sec2-ed{
+
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: center;
+    margin: 20px 0%; /* the first numer apply to top and bottom, secound applices to right and left */
+}
+
+/* tried to make the footer be at the bottom on this page and the about me page but i doesnt work*/
+
+
+/*footer*/
+
+footer {
+    background-color:#f6f6f6;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.footer .left {
+    text-align: left;
+}
+.footer .right {
+    text-align: right;
+}
