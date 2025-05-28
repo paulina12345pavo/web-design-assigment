@@ -141,11 +141,12 @@ tried to make the picture be in the same place when the screen is smaller, but d
 /*free-training*/
 
 .top-space{
-    padding-top: 25%;
+    padding-top: 110px;
     background-color:#f6f6f6;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
 }
 
 .row{
