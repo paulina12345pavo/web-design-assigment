@@ -120,13 +120,16 @@ tried to make the picture be in the same place when the screen is smaller, but d
   background-color: #d6cfbf;
   display: flex; 
   flex-direction: row;
-    padding-top: 100px;
+    padding-top: 120px;
     color:white;
+    align-items: center; /* vertical alignment*/
+    justify-content: center; /* horisontal alignment*/
     
 }
 .column-a {
     flex: 1; 
 }
+
 
 #sec2-a {
   background-color: #d6cfbf;
